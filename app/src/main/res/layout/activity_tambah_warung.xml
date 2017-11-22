@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.warungkopi.view.TambahWarungActivity">
+
+    <EditText
+        android:id="@+id/edit_nama_warkop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nama Warkop"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_nama_pemilik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_nama_warkop"
+        android:layout_marginTop="13dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nama Pemilik"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit_nama_pemilik"
+        android:layout_marginTop="11dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_alamat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Tambah" />
+</RelativeLayout>
